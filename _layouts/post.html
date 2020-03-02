@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Post - {{page.title}}</title>
+    <title>{{site.title}} - {{page.title}}</title>
 
     <!-- Put encrypt ahead of all other includes -->
     {% if page.password  != null %}
@@ -22,10 +22,10 @@
 
     <div id="wrapper" >
 
-        {% include navbar.html %}
+        <!-- {% include navbar.html %} -->
         {% include post.html %}
-        {% include comment-full.html %}
-        {% include footer.html %}
+        <!-- {% include comment-full.html %} -->
+        <!-- {% include footer.html %} -->
 
     </div>
 
