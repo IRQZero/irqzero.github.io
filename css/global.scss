@@ -6,10 +6,7 @@
 
 /* latin */
 @font-face {
-  font-family: "FZLTXIHJW";
-  src: url("../fonts/FZLTXIHJW.woff2") format("woff2"), url("../fonts/FZLTXIHJW.woff") format("woff"),
-    url("../fonts/FZLTXIHJW.ttf") format("truetype"), url("../fonts/FZLTXIHJW.eot") format("embedded-opentype"),
-    url("../fonts/FZLTXIHJW.svg") format("svg");
+  font-family: "Maven Pro";
 }
 del {
   text-decoration: line-through !important;
@@ -30,11 +27,13 @@ del {
   color: $blue;
 }
 body {
-  /* background: url(http://szhshp.coding.me/szhshp-blogpic/site/bg/body_bg.png);*/
-  font-family: "FZLTXIHJW", sans-serif !important;
+  font-family: "Maven Pro", sans-serif !important;
   text-shadow: 0.01em 0.01em 0.01em $black !important;
-  background-color: $lightgrey !important;
+  background-color: $black !important;
+  overflow: hidden;
 }
+
+html, body {margin: 0; height: 100%; overflow: hidden}
 
 code {
   &.highlighter-rouge {
