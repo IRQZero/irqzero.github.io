@@ -98,6 +98,14 @@ em {
   margin-left: 30px;
 }
 
+.jumbotron {
+   background: url('backgroundimage.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   background-size: cover;
+   -o-background-size: cover;
+}
+
 @media (max-width: 480px) {
   .container-fluid {
     padding-right: 0px;
